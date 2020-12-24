@@ -5,11 +5,10 @@ import by.academy.obj.Worker;
 
 public class CalcSalary {
     Worker worker;
-    int one = 1;
-    double average = 0;
 
     public void sumSalary(int[] salary) {
-
+        int one = 1;
+        double average = 0;
         if (salary.length > 0) {
             double sum = 0;
             int sumMonth = 0;
